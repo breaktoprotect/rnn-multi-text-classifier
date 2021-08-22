@@ -1,0 +1,13 @@
+label,text
+not priority,SSL ciphers
+priority always,Remote code execution
+priority always,Authorization Bypass
+priority external,XSS
+priority always,XXE
+priority always,Authentication Bypass
+not priority,Concurrent Login possible
+priority external,Cross Site Scripting
+priority external,CSRF
+priority always,SQL Injection
+not priority,Weak SSL protocols
+priority external,Cross Site Request Forgery

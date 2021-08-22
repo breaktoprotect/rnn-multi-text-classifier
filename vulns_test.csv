@@ -1,0 +1,4 @@
+label,text
+priority always,SQL Injection
+not priority,Weak SSL protocols
+priority external,Cross Site Request Forgery
